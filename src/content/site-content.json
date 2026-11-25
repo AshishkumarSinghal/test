@@ -1,0 +1,165 @@
+{
+  "presetId": "fashion-lookbook",
+  "brand": {
+    "name": "Atelier North",
+    "tagline": "Luxury streetwear redefined in Milan.",
+    "locationLine": "Based in Milan"
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "href": "#hero"
+    },
+    {
+      "label": "Story",
+      "href": "#about"
+    },
+    {
+      "label": "Collection",
+      "href": "#menu"
+    },
+    {
+      "label": "Lookbook",
+      "href": "#gallery"
+    },
+    {
+      "label": "Visit",
+      "href": "#visit"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "hero": {
+    "headline": "Atelier North",
+    "subheadline": "Elevate your style with exclusive drops and personalized styling.",
+    "primaryCta": {
+      "label": "Shop Collection",
+      "href": "#menu"
+    },
+    "secondaryCta": {
+      "label": "Book Styling",
+      "href": "#visit"
+    }
+  },
+  "menu": {
+    "eyebrow": "Curated Styles",
+    "title": "Our Collection",
+    "items": [
+      {
+        "name": "Urban Warrior Jacket",
+        "description": "An oversized silhouette with utility pockets.",
+        "price": "€320",
+        "imageIndex": 0
+      },
+      {
+        "name": "High-Waist Cargo Pants",
+        "description": "Chic and functional—perfect for day or night.",
+        "price": "€150",
+        "imageIndex": 1
+      },
+      {
+        "name": "Graphic Tee",
+        "description": "Limited edition design for bold statements.",
+        "price": "€80",
+        "imageIndex": 2
+      },
+      {
+        "name": "Signature Hoodie",
+        "description": "Soft cotton blend, ideal for layering.",
+        "price": "€120",
+        "imageIndex": 3
+      },
+      {
+        "name": "Street Sneakers",
+        "description": "Comfort meets style in every step.",
+        "price": "€220",
+        "imageIndex": 4
+      }
+    ]
+  },
+  "story": {
+    "title": "Our Story",
+    "body": "Founded in the heart of Milan, Atelier North thrives on the intersection of luxury and street culture. Each piece is crafted with meticulous attention to detail, offering you unique styles that express individuality.",
+    "stats": [
+      {
+        "value": "1k+",
+        "label": "Exclusive Pieces"
+      },
+      {
+        "value": "100+",
+        "label": "Styling Appointments"
+      },
+      {
+        "value": "50+",
+        "label": "Seasonal Drops"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Lookbook",
+    "items": [
+      {
+        "title": "Milan Streets",
+        "caption": "Effortless elegance: Urban lifestyle.",
+        "imageIndex": 0
+      },
+      {
+        "title": "Layering Mastery",
+        "caption": "Layer with confidence this season.",
+        "imageIndex": 1
+      },
+      {
+        "title": "Chic Combinations",
+        "caption": "Mix and match your favorite pieces.",
+        "imageIndex": 2
+      },
+      {
+        "title": "Street Style Icon",
+        "caption": "Capture the essence of contemporary fashion.",
+        "imageIndex": 3
+      },
+      {
+        "title": "Textures & Tones",
+        "caption": "Details that make a difference.",
+        "imageIndex": 4
+      }
+    ]
+  },
+  "visit": {
+    "title": "Come Visit Us",
+    "body": "Explore our exclusive collections in person. Book a styling session for a personalized experience.",
+    "primaryCta": {
+      "label": "Visit Store",
+      "href": "#visit"
+    },
+    "secondaryCta": {
+      "label": "Browse Collection",
+      "href": "#menu"
+    }
+  },
+  "footer": {
+    "blurb": "Atelier North — where fashion meets individuality.",
+    "address": "Via della Moda, Milan, Italy",
+    "hours": "Mon–Sun 10am – 9pm",
+    "phone": "+39 02 1234 5678",
+    "email": "info@ateliernorth.com",
+    "links": [
+      {
+        "label": "Collection",
+        "href": "#menu"
+      },
+      {
+        "label": "Lookbook",
+        "href": "#gallery"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "phoneTel": "tel:+390212345678",
+    "whatsappUrl": "https://wa.me/390212345678"
+  }
+}

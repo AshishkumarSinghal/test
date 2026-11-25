@@ -1,0 +1,16 @@
+/* App Studio design tokens — import in index.css */
+:root {
+  --color-background: #0a0a0a;
+  --color-surface: #171717;
+  --color-text: #fafafa;
+  --color-primary: #e7e5e4;
+  --color-accent: #a8a29e;
+  --color-muted: #78716c;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Helvetica Neue', system-ui, sans-serif;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --space-section: 4.5rem;
+  --shadow-card: 0 12px 40px rgba(15, 23, 42, 0.25);
+}
+

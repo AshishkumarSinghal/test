@@ -1,0 +1,97 @@
+{
+  "userMessage": "Build a site for Atelier North, a luxury streetwear boutique in Milan, Italy. We sell limited drops, lookbook collections, and in-store styling appointments. Hero should feel editorial and fashion-forward, not food or restaurant vibes. CTAs: Shop collection, Book styling, Visit showroom on Via della Moda.",
+  "templateId": "fashion-lookbook",
+  "visualTheme": "fashion",
+  "heroPhotoId": "photo-1445205170230-053b83016050",
+  "imageSource": "subject_pool",
+  "plan": {
+    "generation_pipeline": "marketing_assembled",
+    "design": {
+      "tone": "editorial, fashion-forward, sophisticated, minimalistic",
+      "layout": "clean grid with large imagery, ample white space, and elegant typography",
+      "reference_site": "https://thinklight.app/templates/fashion-lookbook",
+      "website_template": "fashion-lookbook",
+      "palette": {
+        "background": "#FFFFFF",
+        "surface": "#F8F8F8",
+        "text": "#1A1A1A",
+        "primary": "#000000",
+        "accent": "#C59F6B",
+        "muted": "#AFAFAF"
+      },
+      "typography": {
+        "display": "'Didot', serif",
+        "body": "'Helvetica Neue', sans-serif"
+      },
+      "visual_assets": {
+        "hero_keywords": "fashion editorial, luxury streetwear, Milan boutique, minimalistic, sophisticated",
+        "hero_style": "photo_overlay",
+        "imagery_style": "fashion photography, editorial style, urban luxury",
+        "section_ids": [
+          "shop",
+          "lookbook",
+          "styling",
+          "visit"
+        ],
+        "unsplash": {
+          "hero_photo_id": "photo-1507525428034-b723cf961d3e",
+          "gallery": [
+            {
+              "label": "Limited Drop Streetwear",
+              "photo_id": "photo-1541099649105-f69ad21f3246",
+              "alt": "Model wearing luxury streetwear in urban setting"
+            },
+            {
+              "label": "Lookbook Collection",
+              "photo_id": "photo-1512436991641-6745cdb1723f",
+              "alt": "Editorial fashion shoot with streetwear looks"
+            },
+            {
+              "label": "Styling Appointment",
+              "photo_id": "photo-1521334884684-d80222895322",
+              "alt": "Stylist assisting client in boutique"
+            },
+            {
+              "label": "Showroom Exterior",
+              "photo_id": "photo-1506744038136-46273834b3fb",
+              "alt": "Boutique storefront on Via della Moda, Milan"
+            }
+          ]
+        }
+      },
+      "notes": [
+        "Use black and gold accent to evoke luxury and exclusivity.",
+        "Typography uses serif for headings to feel editorial and sans-serif for body for readability.",
+        "Hero uses a large fashion editorial photo with subtle dark overlay and bold CTAs.",
+        "Navigation includes Shop, Lookbook, Styling, Visit sections.",
+        "CTAs: Shop collection, Book styling, Visit showroom."
+      ],
+      "public_site": {
+        "enabled": true,
+        "layout": "PublicLayout",
+        "shared_chrome": [
+          "Header",
+          "Footer"
+        ],
+        "customer_page_ids": [
+          "page_home",
+          "page_shop",
+          "page_lookbook",
+          "page_styling",
+          "page_visit"
+        ],
+        "style_contract": "All customer pages use a black and gold palette with Didot serif headings and Helvetica Neue body text, consistent button styles with gold accent and minimalistic layout."
+      },
+      "visual_brief": {
+        "category": "fashion_retail",
+        "visual_theme": "fashion",
+        "website_template_id": "fashion-lookbook",
+        "copy_tone": "editorial, confident, minimal; collection and craft",
+        "menu_section_label": "Collection",
+        "gallery_section_label": "Lookbook",
+        "image_subject": null,
+        "clarification_question": null
+      }
+    }
+  }
+}

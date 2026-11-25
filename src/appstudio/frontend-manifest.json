@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-28T15:50:18.875Z",
+  "application": {
+    "name": "Atelier North",
+    "description": "A luxury streetwear boutique website showcasing limited drops, lookbook collections, and in-store styling appointments in Milan, Italy.",
+    "type": "marketing_website_with_api",
+    "target_users": "fashion-forward customers interested in luxury streetwear and personalized styling in Milan"
+  },
+  "folders": {
+    "shared": "src/components/shared",
+    "sections": "src/components/sections",
+    "pages": "src/pages"
+  },
+  "sharedComponents": [
+    {
+      "name": "Header",
+      "scope": "shared",
+      "file": "src/components/shared/Header.jsx",
+      "description": "Header chrome",
+      "importAlias": "@/components/shared/Header.jsx"
+    },
+    {
+      "name": "Footer",
+      "scope": "shared",
+      "file": "src/components/shared/Footer.jsx",
+      "description": "Footer chrome",
+      "importAlias": "@/components/shared/Footer.jsx"
+    }
+  ],
+  "sectionComponents": [
+    {
+      "name": "Hero",
+      "scope": "section",
+      "file": "src/components/sections/Hero.jsx",
+      "description": "Hero section",
+      "importAlias": "@/components/sections/Hero.jsx"
+    },
+    {
+      "name": "MenuPreview",
+      "scope": "section",
+      "file": "src/components/sections/MenuPreview.jsx",
+      "description": "MenuPreview section",
+      "importAlias": "@/components/sections/MenuPreview.jsx"
+    },
+    {
+      "name": "StorySection",
+      "scope": "section",
+      "file": "src/components/sections/StorySection.jsx",
+      "description": "Brand story + craft",
+      "importAlias": "@/components/sections/StorySection.jsx"
+    },
+    {
+      "name": "GalleryGrid",
+      "scope": "section",
+      "file": "src/components/sections/GalleryGrid.jsx",
+      "description": "Lookbook grid with captions",
+      "importAlias": "@/components/sections/GalleryGrid.jsx"
+    },
+    {
+      "name": "VisitCta",
+      "scope": "section",
+      "file": "src/components/sections/VisitCta.jsx",
+      "description": "Store visit or stockists CTA",
+      "importAlias": "@/components/sections/VisitCta.jsx"
+    },
+    {
+      "name": "WhatsAppCTA",
+      "scope": "section",
+      "file": "src/components/sections/WhatsAppCTA.jsx",
+      "description": "WhatsAppCTA section",
+      "importAlias": "@/components/sections/WhatsAppCTA.jsx"
+    }
+  ],
+  "pages": [
+    {
+      "id": "home",
+      "name": "Home",
+      "route": "/",
+      "file": "src/pages/Home.jsx",
+      "componentNames": [
+        "Header",
+        "Hero",
+        "MenuPreview",
+        "StorySection",
+        "GalleryGrid",
+        "VisitCta",
+        "WhatsAppCTA",
+        "Footer"
+      ],
+      "audience": "customer"
+    }
+  ],
+  "app": {
+    "file": "src/App.jsx",
+    "sectionOrder": [
+      "Header",
+      "Hero",
+      "MenuPreview",
+      "StorySection",
+      "GalleryGrid",
+      "VisitCta",
+      "WhatsAppCTA",
+      "Footer"
+    ]
+  },
+  "landingBlueprint": true,
+  "publicSiteShell": {
+    "enabled": true,
+    "layoutFile": "src/components/shared/PublicLayout.jsx",
+    "chromeComponents": [
+      "Header",
+      "Footer"
+    ],
+    "customerPageIds": [
+      "page_home",
+      "page_shop",
+      "page_lookbook",
+      "page_styling",
+      "page_visit"
+    ],
+    "customerPageFiles": [],
+    "styleContract": "All customer pages use a black and gold palette with Didot serif headings and Helvetica Neue body text, consistent button styles with gold accent and minimalistic layout."
+  }
+}
